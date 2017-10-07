@@ -1,0 +1,27 @@
+<!--source for dragon pictures: http://seraphina.wikia.com/wiki/Dragon;  http://sigil-nwn2.wikia.com/wiki/Dragon?file=Red_dragon_by_caiomm.jpg; -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fun Dragon Game</title>
+<meta name="description" content="Fun Dragon Game - class project">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script src = "logic.js"></script>
+    
+</head>
+<body>
+<h2>Fun Dragon Game</h2>
+<img id = "main-image" src = "dragon-assets/dragon.jpg">
+<h4 id = "next">You have encountered a dragon and have 2 choices:</h4>
+<div id = "selection">
+    <button id = "choice"  name = "fight" type="submit" onclick = choice(name)>Fight!!!</button>
+    <button id = "choice" name = "flee" type="submit" onclick = choice(name)>Flee...like a coward</button>
+</div>
+<h4>Click 'Fight' - to throw a dice below and get at least 8 to hurt the dragon, or you'll be loosing your health</h4>
+<h2 id = "user-choice">Feeling lucky?</h2>
+<div id = "dices">
+    <img id = "left-dice">
+    <img id = "right-dice">
+</div>
+</body>
+</html>
